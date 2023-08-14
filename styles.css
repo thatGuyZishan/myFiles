@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#first-section{
+    background-color: rgb(9, 163, 111);
+    height: 100vh;
+    width: 100%;
+}
+
+.image{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 12rem;
+    height: 60vh;
+    width: 30%;
+    border: 1px solid rgb(9, 223, 152);
+    border-radius: 50%;
+}
+
+.layout{
+    color: bisque;
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 46rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.other{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.buttons{
+    position: absolute;
+    margin-top: 35rem;
+    margin-left: 50rem;
+
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+
+}
+
+a:hover{
+    color: beige;
+    background-color: rgb(77, 1, 255);
+
+}
+
+h1{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2.2rem;
+}
+
+#second-section{
+    height: 24vh;
+    width: 97%;
+    background-color: antiquewhite;
+    border: 2px solid rgb(245, 188, 31);
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+
+}
+
+#about{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#about-p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 1rem;
+
+}
+
+.education{
+    height: 24vh;
+    width: 97%;
+    background-color: antiquewhite;
+    border: 2px solid rgb(245, 188, 31);
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+
+}
+
+.fa-university{
+    position: absolute;
+    font-size: 4.5rem;
+    padding-top: 1rem;
+}
+
+#about-edu{
+     position: absolute;
+     margin-left: 5.5rem;
+     font-size: 1.3rem;
+     font-weight: 500;
+     padding-top: 1rem;
+
+}
+
+#second-icon{
+    margin-left: 32rem;
+    padding-top: 1rem;
+}
+
+#about-edu-2{
+     position: absolute;
+     margin-left: 37.5rem;
+     font-size: 1.3rem;
+     font-weight: 500;
+     padding-top: 1rem;
+}
+
+.fa-star{
+    position: absolute;
+    font-size: 4.5rem;
+    padding-top: 1rem;
+    margin-left: 60.5rem;
+}
+
+#star{
+     margin-left: 67rem;
+     font-size: 1.3rem;
+     font-weight: 500;
+     padding-top: 1rem;
+}
+
+.hobbies{
+    height: 24vh;
+    width: 97%;
+    background-color: antiquewhite;
+    border: 2px solid rgb(245, 188, 31);
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+.fa-book{
+    position: absolute;
+    font-size: 4.5rem;
+    padding-top: 1rem;
+}
+
+#reading{
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 1rem;
+    margin-left: 5.5rem;  
+}
+
+.fa-music{
+    position: absolute;
+    font-size: 4.5rem;
+    padding-top: 1rem;
+    margin-left: 32rem;
+}
+
+#music{
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 1rem;
+    margin-left: 67rem;
+}
+
+.fa-headphones{
+     position: absolute;
+     margin-left: 60.5rem;
+     font-size: 4.5rem;
+     font-weight: 500;
+     padding-top: 1rem;
+}
+
+#sing{
+    position: absolute;
+    margin-left: 37.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
